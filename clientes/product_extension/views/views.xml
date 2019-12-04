@@ -4,20 +4,20 @@
         <field name="model">product.template</field>
         <field name="inherit_id" ref="product.product_template_form_view"/>
         <field name="arch" type="xml">
-            <!--field name="sale_ok" position="attributes">
-                <attribute name="invisible">1</attribute>
+            <field name="sale_ok" position="attributes">
+                <attribute name="groups">sales_team.group_sale_salesman_all_leads</attribute>
             </field>
             <label for="sale_ok" position="attributes">
-                <attribute name="invisible">1</attribute>
+                <attribute name="groups">sales_team.group_sale_salesman_all_leads</attribute>
             </label>
             <field name="purchase_ok" position="attributes">
-                <attribute name="invisible">1</attribute>
+                <attribute name="groups">sales_team.group_sale_salesman_all_leads</attribute>
             </field>
             <label for="purchase_ok" position="attributes">
-                <attribute name="invisible">1</attribute>
-            </label-->
+                <attribute name="groups">sales_team.group_sale_salesman_all_leads</attribute>
+            </label>
             <xpath expr="//page[@name='sales']" position="attributes">
-                <attribute name="invisible">1</attribute>
+                <attribute name="groups">sales_team.group_sale_salesman_all_leads</attribute>
             </xpath>
         </field>
     </record>
