@@ -19,6 +19,12 @@
             <xpath expr="//page[@name='sales']" position="attributes">
                 <attribute name="groups">sales_team.group_sale_salesman_all_leads</attribute>
             </xpath>
+            <field name="website_sequence" position="attributes">
+                <attribute name="groups">sales_team.group_sale_salesman_all_leads</attribute>
+            </field>
+            <field name="website_style_ids" position="attributes">
+                <attribute name="groups">sales_team.group_sale_salesman_all_leads</attribute>
+            </field>
         </field>
     </record>
 
